@@ -1,0 +1,234 @@
+<!--Ronan Waldron G00384180 GUI Project-->
+<!--
+  Local styling used where a lot of changes were made on the fly.
+
+
+-->
+
+<!--REWORKED GRID VERSION-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--I used multiple stylesheets as it was easier to find and fix things-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="productcontainers.css">
+
+
+    <script src="script.js"></script>
+
+
+
+
+    <title>Trousers</title>
+</head>
+
+<body>
+
+    <div class="container" id="verytop1">
+        <div class="row justify-content-center">
+            <!--Local Logo Styling-->
+            <div class="col-sm-12" style="text-align: center;">
+                <img src="img/logo/logo.png">
+            </div>
+
+        </div>
+        <!--IMG ROW END-->
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <!--Manually Centered Navbar content // justifying wouldn't work-->
+            <nav class="container navbar navbar-expand-lg rounded">
+                <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0 table">
+                    <ul class="navbar-nav ml-auto text-left" id="navbarlist">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="store.html">Store</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="login.html">Login</a>
+                        </li>
+                    </ul>
+            </nav>
+        </div>
+    </div>
+
+
+
+    <!--Category bar just for aesthetics-->
+    <div class="container" style="max-width: 1142px;">
+        <div class="row">
+            <div class="col-sm-12 py-1">
+                <nav class="navbar navbar-light bg-warning rounded h-50">
+                    <span class="navbar-brand mb-5 h1"> <a href="store.html">Headgear</a></span>
+                    <span class="navbar-brand mb-5 h1"> <a href="jumpers.html">Jumpers</a></span>
+                    <img src="img/cart.png" id="hangar" class="navbar-brand mb-5 h1">
+                    <span class="navbar-brand mb-5 h1"> <a href="pants.html">Trousers</a></span>
+                    <span class="navbar-brand mb-5 h1"> <a href="shoes.html">Footwear</a></span>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!------------------MAIN---------------->
+
+    <div class="container-fluid productcontainers">
+        <div class="box">
+            <h2 class="name">Jeans</h2>
+            <a href="#" class="buy">€30.00</a>
+            <img src="img/pants/jeans.png" class="product">
+        </div>
+
+        <div class="box">
+            <h2 class="name">Beige Trousers</h2>
+            <a href="#" class="buy">€25.00</a>
+            <img src="img/pants/brownpants.png" class="product">
+        </div>
+
+        <div class="box">
+            <h2 class="name">Cross Pants</h2>
+            <a href="#" class="buy">€35.00</a>
+            <img src="img/pants/tartan.png" class="product">
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <!------------------FOOTER TAKEN FROM MDBOOTSTRAP---------------->
+
+    <div class="container">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+                <!-- Left -->
+
+                <!-- Right -->
+             
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Left side footer logo -->
+                            <img src="img/logo/logo.png">
+
+
+
+                        </div>
+                        <!-- Grid column -->
+
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a href="store.html" class="text-reset">Store</a>
+                            </p>
+                            <p>
+                                <a href="contact.html" class="text-reset">Contact Us</a>
+                            </p>
+                            <p>
+                                <a href="login.html" class="text-reset">Login</a>
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contact
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> Liosban Business Park, <br>Tuam Rd. <br>Galway <br>F1
+                                P123, IRL</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                sales@shopazon.ie
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> +353 89 12345</p>
+                            <p><i class="fas fa-print me-3"></i> +353 94 54321</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center text-white p-4" style="background-color: rgb(20, 110, 161);">
+                © 2021
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">ShopaZon Ltd.</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+
+    <script src="vanilla-tilt.min.js"></script>
+
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+
+
+</body>
+
+</html>

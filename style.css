@@ -1,0 +1,78 @@
+/* Setup Navbar - height colours and minimum width */
+.navbar {
+    height: 60px;
+    background-color: rgb(23, 97, 139);
+    min-width: 992px
+}
+
+/* Top background GIF */
+#verytop1 {
+    background-image: url('img/gif/homepagegif.gif');
+
+}
+
+/*Remove link colour*/
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Category bar middle image size*/
+#hangar {
+    width: 40px;
+}
+
+/* Fix for aligning navbar items */
+.table {
+    display: table;
+    margin: 0 auto;
+}
+
+/* Further fix for aligning navbaritems */
+ul#navbarlist {
+    min-width: 682px;
+    list-style: none;
+    padding-top: 0px;
+    font-size: 110%;
+}
+
+/* Further fix for aligning navbaritems */
+ul#navbarlist li {
+    display: inline;
+}
+
+/* Style for first "about" image */
+#firstabout {
+    width: 500px;
+
+}
+
+/* Following three for adjusting About US images and aligning text to the side*/
+.image1 {
+    flex-basis: 40%;
+    border: 5px solid #555;
+}
+
+.text1 {
+    font-size: 20px;
+    padding-left: 180px;
+
+}
+
+.firstaboutid1 {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+#firstabout2 {
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-right: 10px;
+    border: 5px solid #555;
+
+}

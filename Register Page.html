@@ -1,0 +1,127 @@
+<!-- Register of Customer Details (SOH)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Required meta tags-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Title of Page -->
+	<title>Register Page</title>
+	
+	<!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+	<!--External Pages for JavaScript and CSS-->
+	<script src="Register.js" defer></script>
+	<link rel="stylesheet" href="StoreStyle.css">
+	<link rel="stylesheet" href="style.css">
+<body>
+	<!--Dividing Page up for CSS-->
+	<div id="container">
+	
+	<!--Logo Image-->
+	<div  class="header" class="text-center">
+		<img src="logo.png" alt="Logo" class="rounded mx-auto d-block">
+	</div>
+
+<!------------------------------------------------------------------------------------------------>
+	<!--Navbar using bootstrap-->
+    <nav class="container navbar navbar-expand-lg rounded" id="navBar">
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
+            <ul class="navbar-nav ml-auto text-left">
+				<!-- Link to Home Page -->
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="store.html">Home</a>
+                </li>
+				<!-- Link to Cart Page -->
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="cart.html">Cart</a>
+                </li>
+				<!-- Link to Checkout Page -->
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="checkout.html">Checkout</a>
+                </li>
+				<!-- Link to Sign In Page -->
+				<li class="nav-item">
+                    <a class="nav-link text-white" href="Login.html">Sign In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!------------------------------------------------------------------------------------------------>
+	<!--Start of Form-->
+	<div class="details" class="text-center">
+		<!-- Title -->
+		<h2>Create an Account with ShopaZon</h2>
+		<form id="form" onsubmit="return register()" action="login.html">
+		
+		<!--Email Input Label and Validation-->
+		<div class="row mb-3" >
+			<label for="email" class="col-sm-5 col-form-label">Email Address:</label>
+			<div class="col-sm-6">
+				<input type="email" id="email" class="form-control" required >
+			</div>
+		</div>
+		
+		<!--Username Input Label and Validation-->
+		<div class="row mb-3">
+			<label for="uname" class="col-sm-5 col-form-label">Username:</label>
+			<div class="col-sm-6">
+				<input type="text" id="uname" class="form-control rounded" required >
+			</div>
+		</div>
+		
+		<!--Password Input Label and Validation-->
+		<div class="row mb-3">
+			<label for="pwd" class="col-sm-5 col-form-label">Password:</label>
+			<div class="col-sm-6">
+				<input type="password" id="pwd" class="form-control rounded" required >
+			</div>
+		</div>
+		
+		<!--Retype Password Input Label and Validation-->
+		<div class="row mb-3">
+			<label for="txtConfirmPwd" class="col-sm-5 col-form-label">Retype Password:</label>
+			<div class="col-sm-6">
+				<input type="password" id="txtConfirmPwd" class="form-control rounded" required >
+			</div>
+		</div>
+			<!--Submit Button which checks required inputs entered-->
+			<button class="button" type="submit "id="submit">Register as Customer</button>
+		</form> <!--End of Form-->
+	</div>
+
+<!------------------------------------------------------------------------------------------------>
+	<!--3rd Section, Already a customer-->
+	<div class="signIn">
+		<h2><b>Already a Customer?</b></h2>
+		<p>
+			<!--Link to login page-->
+			Click <a href="login.html">here</a> to go to login page!
+		</p>
+	</div>
+	
+<!------------------------------------------------------------------------------------------------>
+	<!-- Footer -->
+	<footer class="footer">
+		<p>Copyright &copy; ShopaZon 2020</p>
+    </footer>
+	</div>
+
+<!------------------------------------------------------------------------------------------------>
+	<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>

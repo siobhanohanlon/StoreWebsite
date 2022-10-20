@@ -1,0 +1,145 @@
+/*Stylesheet for Pages (SOH)*/
+
+/*Margin and Padding for all Page*/
+* 
+{
+    margin: 0;
+    padding: 0;
+	/*All Text is Aligned in centre*/
+	text-align: center !important;
+	
+}
+
+/*Divider*/
+div
+{
+	/*Display is in block mode and has a border box*/
+	display: block;
+	box-sizing: border-box;
+}
+
+/*Body Colour whitesmoke*/
+body
+{
+	/*Size of line for bodys text*/
+	line-height:19px;
+	/*Body background colour*/
+	background-color: whitesmoke;
+}
+
+/*CSS for Division of Page*/
+#container
+{
+	/*grid display and 2px gap between divisions*/
+	display: grid;
+	grid-gap: 2px;
+}
+
+/*Image CSS Properties*/
+img
+{
+	/*Image is in block mode at 20% of page width and auto height*/
+    display: block;
+	width: 20%;
+	height: auto;
+	/*padding settigns for above and below images*/
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+/*CSS for Header border radius*/
+.header
+{
+	border-radius: 10px;
+}
+
+/*CSS for form*/
+#form
+{
+	/*padding for top of form*/
+	padding-top: 5px;
+	/*maxium width of form for page*/
+	max-width: 500px;
+	/*automatic margins*/
+	margin: auto;
+}
+
+/*CSS for Login in page area*/
+.signIn, .details
+{
+	/*width of division*/
+	width: 65%;
+	/*background colour and border radius and font size*/
+	background-color: #66ccff;
+	border-radius: 10px;
+	font-size: 40;
+	/*automatic margins and 10px of padding all around*/
+	margin: auto;
+	padding: 10px;
+}
+
+/*Link to login page CSS*/
+a
+{
+	/*colour when not hoovered over*/
+	color:blue;
+}
+
+a:hover
+{
+	/*turns red when hoovered over*/
+	color: red;
+}
+
+/*Footer*/
+.footer
+{
+	/*keeps it at the bottom no matter the page size*/
+	position: fixed;
+    background: #232323;
+	bottom:0px;
+	/*full length of screen */
+	width:100%;
+	height:60px;
+	/*text colour white*/
+	color: white;
+	grid-gap: 0px;
+}
+
+/*Button CSS*/
+/*I transfered this from bootstrap as when i went to add a 
+hover the bootstrap would override it and it wouldnt change*/
+.button 
+{
+	color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+	margin: 0;
+    font-family: inherit;
+	text-align: center !important;
+	-webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+	letter-spacing: normal;
+    word-spacing: normal;
+	text-indent: 0px;
+    text-shadow: none;
+	display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+	text-decoration: none;
+    vertical-align: middle;
+	-webkit-user-select: none;
+	border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/*button CSS for when hoovering over*/
+.button:hover
+{
+	border-color: #0d6efd;
+	color: #0d6efd;
+	background-color: #fff;
+}
